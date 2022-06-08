@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package commontypes;
 
-// option go_package = "./commonproto";
+option go_package = "github.com/Yonas21/commontypes";
 
 message Result {
     string msg = 1;
