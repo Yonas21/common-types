@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package commonproto;
+
+// option go_package = "./commonproto";
+
+message Result {
+    string msg = 1;
+    bool success = 2;
+}  
