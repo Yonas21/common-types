@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package commonproto;
+package commontypes;
 
 // option go_package = "./commonproto";
 
